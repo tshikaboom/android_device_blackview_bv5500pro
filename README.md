@@ -39,7 +39,7 @@ Unlocking and flashing the phone
 - Hold the power and volume up buttons for a long time.
 - Select fastboot mode.
 - Connect it with an USB cable to the computer
-- `fastboot oem unlock` should then work. (The boot screen should complain about the phone being untrusted)
+- `fastboot flashing unlock` should then work. (The boot screen should complain about the phone being untrusted)
 
 Flashing can then be done, again in fastboot mode, with the following command:
 ```
