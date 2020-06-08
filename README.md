@@ -19,7 +19,7 @@ cd bv5500pro-android
 
 Initialize the OmniROM manifest and sync with it:
 ```
-repo init -u https://github.com/tshikaboom/omnirom-bv5500pro-manifest -b twrp-9.0-bv5500pro
+repo init -u https://github.com/tshikaboom/omnirom-bv5500pro-manifest -b twrp-bv5500pro
 repo sync
 ```
 
