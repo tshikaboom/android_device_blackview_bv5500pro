@@ -48,3 +48,10 @@ fastboot flash recovery <bv5500pro-android>/out/target/product/bv5500pro/recover
 
 Reboot to recovery (with the above power+volume-up trick), and enjoy the boot loop. The phone should then reboot to system.
 
+Troubleshooting the build
+===
+If something like this happens:
+```
+flex-2.5.39: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+```
+Just `export LC_ALL=C` and rebuild.
