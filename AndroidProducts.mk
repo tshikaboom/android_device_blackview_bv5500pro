@@ -17,3 +17,7 @@
 LOCAL_PATH := device/blackview/bv5500pro
 
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/blackview_bv5500pro.mk
+
+COMMON_LUNCH_CHOICES := \
+	blackview_bv5500pro-userdebug \
+	blackview_bv5500pro-eng
